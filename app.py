@@ -5,7 +5,8 @@ app = Flask(__name__)
 users = {
     'supply': {'username': 'cherry', 'password': '6354', 'url': 'https://chatchanokt24.github.io/supplyV3/', 'thai_name': 'เจ้าหน้าที่จัดซื้อจัดจ้าง'},
     'warehouse': {'username': 'banana', 'password': '1539', 'url': 'https://chatchanokt24.github.io/supplyV3/', 'thai_name': 'เจ้าหน้าที่คลัง'},
-    'logistic': {'username': 'lychee', 'password': '2451', 'url': 'https://chatchanokt24.github.io/supplyV3/', 'thai_name': 'เจ้าหน้าที่ขนส่ง'}
+    'logistic': {'username': 'lychee', 'password': '2451', 'url': 'https://chatchanokt24.github.io/supplyV3/', 'thai_name': 'เจ้าหน้าที่ขนส่ง'},
+    'budgeting': {'username': 'mango', 'password': '3951', 'url': 'https://chatchanokt24.github.io/supplyV3/', 'thai_name': 'เจ้าหน้าที่งบประมาณ'}
 }
 
 @app.route('/')
